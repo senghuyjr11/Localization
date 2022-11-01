@@ -16,7 +16,7 @@
             android:id="@+id/tv_someone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/miss_someone"
+            android:text="@string/congrats"
             android:textColor="#E91E63"
             android:textSize="22sp"
             app:layout_constraintBottom_toBottomOf="parent"
