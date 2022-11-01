@@ -20,7 +20,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
             overridePendingTransition(R.anim.slide_in_top, R.anim.slide_out_bottom)
         }
         binding.btnKorean.setOnClickListener {
-            putPrefer("LANGUAGE","ko")
+            putPrefer("LANGUAGE","ko") 
             finish()
             startActivity(intent)
             overridePendingTransition(R.anim.slide_in_top, R.anim.slide_out_bottom)
